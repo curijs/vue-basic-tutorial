@@ -3,8 +3,10 @@
     <h1>Checkout</h1>
     <table>
       <thead>
-        <th>Title</th>
-        <th>Quantity</th>
+        <tr>
+          <th>Title</th>
+          <th>Quantity</th>
+        </tr>
       </thead>
       <tbody>
         <tr v-for="book in books" :key="book.title">
