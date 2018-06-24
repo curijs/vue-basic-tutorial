@@ -28,8 +28,7 @@
     methods: {
       onClick: function() {
         cart.add(this.book, 1);
-        const pathname = this.$router.addons.pathname('Checkout');
-        this.$router.history.push({ pathname });
+        this.$router.navigate({ to: "Checkout" });
       }
     }
   }

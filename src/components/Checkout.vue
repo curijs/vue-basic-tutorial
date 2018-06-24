@@ -40,8 +40,11 @@
     methods: {
       onClick: function() {
         this.books = cart.reset();
-        const pathname = this.$router.addons.pathname('Checkout');
-        this.$router.history.replace({ pathname, hash: 'thanks' });
+        this.$router.navigate({
+          to: "Checkout",
+          hash: "thanks",
+          method: "REPLACE"
+        });
       }
     }
   }
