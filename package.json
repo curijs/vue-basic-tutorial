@@ -8,7 +8,6 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@curi/core": "^1.0.0-beta.28",
     "@curi/router": "^1.0.0-beta.36",
     "@curi/vue": "^1.0.0-beta.20",
     "@hickory/browser": "^1.0.0-beta.7",
