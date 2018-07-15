@@ -621,28 +621,26 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@curi/core@^1.0.0-beta.26", "@curi/core@^1.0.0-beta.28":
-  version "1.0.0-beta.28"
-  resolved "https://registry.yarnpkg.com/@curi/core/-/core-1.0.0-beta.28.tgz#25b316ea040ab1ed67b60eb3f2a7d67f290e7956"
+"@curi/router@^1.0.0-beta.36", "@curi/router@^1.0.0-beta.37":
+  version "1.0.0-beta.37"
+  resolved "https://registry.yarnpkg.com/@curi/router/-/router-1.0.0-beta.37.tgz#a4ab61beffcb3811c3cda535e05240ee157351ec"
   dependencies:
-    "@hickory/root" "^1.0.0-beta.7"
+    "@hickory/root" "1.0.0-beta.8"
     path-to-regexp "^2.1.0"
 
-"@curi/vue@^1.0.0-beta.16":
-  version "1.0.0-beta.16"
-  resolved "https://registry.yarnpkg.com/@curi/vue/-/vue-1.0.0-beta.16.tgz#803ae05dc812d27f6aafb6d77cc53b7528c200e6"
+"@curi/vue@^1.0.0-beta.20":
+  version "1.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@curi/vue/-/vue-1.0.0-beta.20.tgz#241ffa6de8b90cad624ed3fbcec5dcaf90f37815"
   dependencies:
-    "@curi/core" "^1.0.0-beta.26"
-    "@hickory/root" "^1.0.0-beta.6"
-    "@types/warning" "^3.0.0"
-    warning "^3.0.0"
+    "@curi/router" "^1.0.0-beta.36"
+    "@hickory/root" "^1.0.0-beta.7"
 
-"@hickory/browser@^1.0.0-beta.6":
-  version "1.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@hickory/browser/-/browser-1.0.0-beta.6.tgz#956342d0015f56a574ec898defb90b35804493f7"
+"@hickory/browser@^1.0.0-beta.7":
+  version "1.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@hickory/browser/-/browser-1.0.0-beta.7.tgz#803f318e1ec43d9241a37cb3e4b94c01b8f647c1"
   dependencies:
     "@hickory/dom-utils" "^1.0.0-beta.2"
-    "@hickory/root" "^1.0.0-beta.7"
+    "@hickory/root" "^1.0.0-beta.8"
 
 "@hickory/dom-utils@^1.0.0-beta.2":
   version "1.0.0-beta.2"
@@ -652,7 +650,13 @@
   version "1.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/@hickory/location-utils/-/location-utils-1.0.0-beta.2.tgz#22cea6b0446f4d76685b03000e432cf43be40153"
 
-"@hickory/root@^1.0.0-beta.6", "@hickory/root@^1.0.0-beta.7":
+"@hickory/root@1.0.0-beta.8", "@hickory/root@^1.0.0-beta.8":
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@hickory/root/-/root-1.0.0-beta.8.tgz#f4132350507db8edd241161a5e86ac6db9301be2"
+  dependencies:
+    "@hickory/location-utils" "^1.0.0-beta.2"
+
+"@hickory/root@^1.0.0-beta.7":
   version "1.0.0-beta.7"
   resolved "https://registry.yarnpkg.com/@hickory/root/-/root-1.0.0-beta.7.tgz#7369966811a16122567e6fda3bc559afcfecf943"
   dependencies:
@@ -664,10 +668,6 @@
   dependencies:
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
-
-"@types/warning@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/warning/-/warning-3.0.0.tgz#0d2501268ad8f9962b740d387c4654f5f8e23e52"
 
 "@vue/babel-preset-app@^3.0.0-beta.6":
   version "3.0.0-beta.6"
@@ -6392,15 +6392,9 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue@^2.5.13:
+vue@^2.5.16:
   version "2.5.16"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
-
-warning@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
-  dependencies:
-    loose-envify "^1.0.0"
 
 watchpack@^1.4.0:
   version "1.5.0"
