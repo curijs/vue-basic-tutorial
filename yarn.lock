@@ -641,6 +641,13 @@
     "@hickory/root" "^1.0.0"
     path-to-regexp "^2.1.0"
 
+"@curi/router@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@curi/router/-/router-1.0.1.tgz#007c8f13b6c56eb73568ea4ccd38da4d4bdc9d20"
+  dependencies:
+    "@hickory/root" "^1.0.0"
+    path-to-regexp "^2.1.0"
+
 "@curi/vue@^1.0.0-beta.23":
   version "1.0.0-beta.23"
   resolved "https://registry.yarnpkg.com/@curi/vue/-/vue-1.0.0-beta.23.tgz#0d743428a110a6e0b4562af62c9305969d13cad3"
