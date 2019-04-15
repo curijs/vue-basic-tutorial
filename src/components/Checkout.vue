@@ -43,7 +43,7 @@
         this.$router.navigate({
           to: "Checkout",
           hash: "thanks",
-          method: "REPLACE"
+          method: "replace"
         });
       }
     }

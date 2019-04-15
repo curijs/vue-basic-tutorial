@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import { curi } from '@curi/router';
-import Browser from '@hickory/browser'
+import { createRouter } from '@curi/router';
+import { browser } from '@hickory/browser'
 import { CuriPlugin } from '@curi/vue'
 
 import routes from './routes';
@@ -8,8 +8,7 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-const history = Browser()
-const router = curi(history, routes)
+const router = createRouter(browser, routes)
 Vue.use(CuriPlugin, { router })
 
 new Vue({
