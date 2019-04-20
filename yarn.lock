@@ -634,29 +634,29 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@curi/router@^2.0.0-beta.9":
-  version "2.0.0-beta.9"
-  resolved "https://registry.yarnpkg.com/@curi/router/-/router-2.0.0-beta.9.tgz#d653107568c47eea91e12b7dbc723c6bdb56f7e8"
-  integrity sha512-wiXAoiSv2HiaZwJfVYjkfZKGO7CHdo9Q5PusEFgBRo7ZEKWYvCwev1LalXtqVl7pPXqo5xMa9LwN1OWFJefp7A==
+"@curi/router@^2.0.0-beta.13":
+  version "2.0.0-beta.13"
+  resolved "https://registry.yarnpkg.com/@curi/router/-/router-2.0.0-beta.13.tgz#b59c63a1c48b1da840415748bdac096ad31fe800"
+  integrity sha512-vay2+4N2HYCuyGtYLzJsPXiK/1hOlbPpLZJ7Eyshi0+oYow/4BMWQHVHf9f30ORWbO+JkoqItM1TvjUojn5tnA==
   dependencies:
-    "@curi/types" "^2.0.0-beta.2"
+    "@curi/types" "^2.0.0-beta.5"
     "@hickory/root" "^2.0.0-beta.11"
     path-to-regexp "^2.1.0"
 
-"@curi/types@^2.0.0-beta.2":
-  version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@curi/types/-/types-2.0.0-beta.2.tgz#e422dd3049a37dee19ec91fb0effdea7d2d782b2"
-  integrity sha512-62FmObAevcjJC/P07aV1eskDPhA7Ij1U2Ep6Rdeqaev9AoN+eMXdpunucHEYkB6UALc8D4pHHidpflkGYrkSqg==
+"@curi/types@^2.0.0-beta.5":
+  version "2.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@curi/types/-/types-2.0.0-beta.5.tgz#99d420d5005676739c60418bc87e1e8ed29290a4"
+  integrity sha512-HeqgDNZuBpTm3V4Zk76BDnrDFMXPCKtY8kOwWEztDd53Osad+wXidOmgqydaLPp8pwh+xFwstswZH7iPf849Yw==
   dependencies:
     "@hickory/root" "^2.0.0-beta.11"
     path-to-regexp "^2.1.0"
 
-"@curi/vue@^2.0.0-alpha.0":
-  version "2.0.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@curi/vue/-/vue-2.0.0-alpha.0.tgz#c63faf9252afba4152d33c56f6c477b667e92d1e"
-  integrity sha512-bycx82YUrNASZoCYtaRzCcakrTZOonJydOoFQ3yLunmBwwFgBYHsPmZRS5NqzUFbLo3DvtTEv/mZ9XwwAdzJTQ==
+"@curi/vue@^2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@curi/vue/-/vue-2.0.0-alpha.3.tgz#9740d4f4b18ea486eec869c6b9111419a2593a5a"
+  integrity sha512-WxINjVgEERTZQ3SLNfkm6k6WCqVQvixfRZlGSHTNlrhqmM6zlfMKRGh0rgLLsFITkXqkvIwUPY40Eaz6lSG+LA==
   dependencies:
-    "@curi/types" "^2.0.0-beta.2"
+    "@curi/types" "^2.0.0-beta.5"
     "@hickory/root" "^2.0.0-beta.11"
 
 "@hickory/browser@^2.0.0-beta.11":

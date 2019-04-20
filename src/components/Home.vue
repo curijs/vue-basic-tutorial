@@ -2,7 +2,7 @@
   <div>
     <ul>
       <li v-for="b in books" :key="b.id">
-        <curi-link to="Book" :params="{ id: b.id }">
+        <curi-link name="Book" :params="{ id: b.id }">
           {{b.title}} by {{b.author}}
         </curi-link>
       </li>

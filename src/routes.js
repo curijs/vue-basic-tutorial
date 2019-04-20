@@ -10,7 +10,7 @@ export default prepareRoutes({
     {
       name: "Home",
       path: "",
-      response() {
+      respond() {
         return {
           body: Home
         };
@@ -19,7 +19,7 @@ export default prepareRoutes({
     {
       name: "Book",
       path: "book/:id",
-      response() {
+      respond() {
         return {
           body: Book
         };
@@ -28,7 +28,7 @@ export default prepareRoutes({
     {
       name: "Checkout",
       path: "checkout",
-      response() {
+      respond() {
         return {
           body: Checkout
         };
@@ -37,7 +37,7 @@ export default prepareRoutes({
     {
       name: "Catch All",
       path: "(.*)",
-      response() {
+      respond() {
         return {
           body: NotFound
         };
