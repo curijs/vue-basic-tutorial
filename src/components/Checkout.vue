@@ -40,11 +40,11 @@
     methods: {
       onClick: function() {
         this.books = cart.reset();
-        this.$router.navigate({
-          to: "Checkout",
-          hash: "thanks",
-          method: "replace"
+        const url = this.$router.url({
+          name: "Checkout",
+          hash: "thanks"
         });
+        this.$router.navigate({ url, method: "replace" });
       }
     }
   }

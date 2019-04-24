@@ -28,7 +28,8 @@
     methods: {
       onClick: function() {
         cart.add(this.book, 1);
-        this.$router.navigate({ name: "Checkout" });
+        const url = this.$router.url({ name: "Checkout" });
+        this.$router.navigate({ url });
       }
     }
   }
