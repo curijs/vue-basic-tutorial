@@ -634,55 +634,64 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@curi/router@^2.0.0-beta.14":
+"@curi/interactions@^2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@curi/interactions/-/interactions-2.0.0-beta.1.tgz#f33b71551d9727cd18d59b67f2d08ca2c1e347b1"
+  integrity sha512-DkK0QuqApILhMAy1DhDFLjjvQTvM1Zs+QNfQ5iFmK8EO9wd4Qo3jFzTT/eHwC/zg440dBI24qdCgd48/Rp3xpg==
+  dependencies:
+    "@curi/types" "^2.0.0-beta.8"
+    "@hickory/root" "2.0.0-beta.14"
+
+"@curi/router@^2.0.0-beta.19":
+  version "2.0.0-beta.19"
+  resolved "https://registry.yarnpkg.com/@curi/router/-/router-2.0.0-beta.19.tgz#a2715ee83ddb5560864e7abbb55196a9787606de"
+  integrity sha512-DADckLBdmrSTPU5IKDpo7VRDJUBChqdCv/fs60vvy8WEo4wXhoQg5YrxmXVbonDtxZ02q5FYOKEz+wV4cKuWzw==
+  dependencies:
+    "@curi/interactions" "^2.0.0-beta.1"
+    "@curi/types" "^2.0.0-beta.8"
+    "@hickory/root" "2.0.0-beta.14"
+    path-to-regexp "^2.1.0"
+
+"@curi/types@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@curi/types/-/types-2.0.0-beta.8.tgz#9e07dad1eb94a414f4eabc0d0081dcd35e0a565e"
+  integrity sha512-frqaSbiRHM0Tex8g5MCrEclwS4xVo/yO8x0rUBuxrt7c9DV1yrw/NDVu7AsvU+TDnTVRjPBSsmOoNoj2254asg==
+  dependencies:
+    "@hickory/root" "2.0.0-beta.14"
+    path-to-regexp "^2.1.0"
+
+"@curi/vue@^2.0.0-alpha.8":
+  version "2.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@curi/vue/-/vue-2.0.0-alpha.8.tgz#3c33ddba71b2b6896598b96436105fbc5a778606"
+  integrity sha512-Rkjw+J+x+cZ+QOOgZGoA1GsEcKs3GYuLO0IR+KnX2bh8ZsyrdCA32zhUnK370CEthOnIr5hrIFogTM357qhUkw==
+  dependencies:
+    "@curi/types" "^2.0.0-beta.8"
+    "@hickory/root" "2.0.0-beta.14"
+
+"@hickory/browser@^2.0.0-beta.14":
   version "2.0.0-beta.14"
-  resolved "https://registry.yarnpkg.com/@curi/router/-/router-2.0.0-beta.14.tgz#d82627dc8992f6510f583bb188dc96ad7c6d53f2"
-  integrity sha512-PECHq7OfRYEKnzNROzb5JDey0hejgKox75BZ5SX1OyDj5ilpFUz91R84X18iSC5RmTSTHALrSPDzIom6WM93eQ==
+  resolved "https://registry.yarnpkg.com/@hickory/browser/-/browser-2.0.0-beta.14.tgz#639474b40e0f58fcd5676c5e6408032d29e2d004"
+  integrity sha512-i3bZBfXK3BnPFNGYOfMgPNJwdWOXYchrop20903se6AvJx+0zH9HcNrY5Y4lzLmQPZrUvl0NHF9UyO7lw1Lziw==
   dependencies:
-    "@curi/types" "^2.0.0-beta.6"
-    "@hickory/root" "^2.0.0-beta.13"
-    path-to-regexp "^2.1.0"
+    "@hickory/dom-utils" "^2.0.0-beta.14"
+    "@hickory/root" "^2.0.0-beta.14"
 
-"@curi/types@^2.0.0-beta.6":
-  version "2.0.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@curi/types/-/types-2.0.0-beta.6.tgz#c039f922bc64ce13a160dc80f41824e0b0f3cd79"
-  integrity sha512-2u9p4X8d4zYPA3y52mB9ORLcIPTW5mbFTBByJkWDwf/YgS/ddXkcbXFm1fQ9OIJw+hOZqwQB9uugoHTb66QjKA==
+"@hickory/dom-utils@^2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@hickory/dom-utils/-/dom-utils-2.0.0-beta.14.tgz#d9f7eb0950c45502701aca8dd46875f04480b1f3"
+  integrity sha512-8K2xzWktQB0A5qmOHP1xjhP2Tyg61muYF5H39CAook3qChubWfNQMw9b8ypZJiCHiNdvQdGUEFctT3Zua81hwQ==
+
+"@hickory/location-utils@^2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@hickory/location-utils/-/location-utils-2.0.0-beta.14.tgz#45e4d2dbc6a6ad5d8c051bf22500a6f48851a46f"
+  integrity sha512-+/lOqpKkoT0RoucRXHEDJPGgeETstvxXp6VdrQlDb+QheBi0p7LtQM4soOfbdXY1N1Y9c0Ne3hhhIqP4m7FN6g==
+
+"@hickory/root@2.0.0-beta.14", "@hickory/root@^2.0.0-beta.14":
+  version "2.0.0-beta.14"
+  resolved "https://registry.yarnpkg.com/@hickory/root/-/root-2.0.0-beta.14.tgz#a6950d72e5ee9f4e60c571d167bf15f4eb63daff"
+  integrity sha512-E6YhtIehPv73+r5l7hRWJl5ZocMOCjkg9Gr8q7mAHWRMFsvWSkAs2ej13HKj0HKfi8u03ktjBHa3NA77lqDy/A==
   dependencies:
-    "@hickory/root" "^2.0.0-beta.13"
-    path-to-regexp "^2.1.0"
-
-"@curi/vue@^2.0.0-alpha.4":
-  version "2.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@curi/vue/-/vue-2.0.0-alpha.4.tgz#662b458de3be83cc6a7b8f2b7f8c9a717eda3159"
-  integrity sha512-MdJhqOyCFgWtCZfPU7ZNrihdjs1OlF8cwsnrc/sNcTeObwQEOUS6fWIIDEH8GVHlwe8baOH2WAYbkMCaQt0SpA==
-  dependencies:
-    "@curi/types" "^2.0.0-beta.6"
-    "@hickory/root" "^2.0.0-beta.13"
-
-"@hickory/browser@^2.0.0-beta.13":
-  version "2.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@hickory/browser/-/browser-2.0.0-beta.13.tgz#ad7cd4589b8c3dd04063af15fd2169801837092c"
-  integrity sha512-cddet2MfQfagme/qlTdHnpx7BSSQg6ivHc+XhNr60kFBvBsFFONVCB8QLhEJe/lPg7WkW4zIlxv6rOcANXIysQ==
-  dependencies:
-    "@hickory/dom-utils" "^2.0.0-beta.13"
-    "@hickory/root" "^2.0.0-beta.13"
-
-"@hickory/dom-utils@^2.0.0-beta.13":
-  version "2.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@hickory/dom-utils/-/dom-utils-2.0.0-beta.13.tgz#c3b1f0b60f39e96aa621efe3e860fb3f7fe2d65b"
-  integrity sha512-T1ctHh+XKOQ7ohRy+17HDNP36MZ17poRHJvHVUJnVnSn5OT6tpRRbdawJGl/Vynf4skIwLtILMhzB1cxlFjfgg==
-
-"@hickory/location-utils@^2.0.0-beta.13":
-  version "2.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@hickory/location-utils/-/location-utils-2.0.0-beta.13.tgz#fd6ed355eefb75269b2f1dd8cc65189154c70333"
-  integrity sha512-/R7UyhVRUbNbYbeLoMQLqFPQ+GDXvvXnEJLiFCMo2PLv5+VFCjMyKA30mJjvwv5Xlq4z6abYz1Ol6sIaJcXMfg==
-
-"@hickory/root@^2.0.0-beta.13":
-  version "2.0.0-beta.13"
-  resolved "https://registry.yarnpkg.com/@hickory/root/-/root-2.0.0-beta.13.tgz#c69f3396a4ee69b5638704252ac242574e04786e"
-  integrity sha512-FLMp8djT523kjz0zQ9Ov7l5L/gxZYl1UePjmhHNxIOWee0G3Wk5cCwD1bjpBb5Gf1mFb0l4kR0J4Ax9HBmM/Zg==
-  dependencies:
-    "@hickory/location-utils" "^2.0.0-beta.13"
+    "@hickory/location-utils" "^2.0.0-beta.14"
 
 "@intervolga/optimize-cssnano-plugin@^1.0.5":
   version "1.0.6"
